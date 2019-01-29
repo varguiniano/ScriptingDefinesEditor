@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
-namespace Varguiniano.ScriptingDefineEditor
+namespace Varguiniano.ScriptingDefinesEditor
 {
+    /// <inheritdoc />
     /// <summary>
     /// Class that stores the defines this project uses.
     /// </summary>
@@ -44,7 +45,7 @@ namespace Varguiniano.ScriptingDefineEditor
         /// </summary>
         /// <param name="define">Define.</param>
         /// <param name="status">Status.</param>
-        public void AddDefine(string define, bool status)
+        private void AddDefine(string define, bool status)
         {
             var set = false;
             foreach (var defineStatusPair in DefinesList)

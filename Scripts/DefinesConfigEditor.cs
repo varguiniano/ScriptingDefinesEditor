@@ -1,7 +1,8 @@
 using UnityEditor;
 
-namespace Varguiniano.ScriptingDefineEditor
+namespace Varguiniano.ScriptingDefinesEditor
 {
+    /// <inheritdoc />
     /// <summary>
     /// Custom editor for the defines config.
     /// </summary>

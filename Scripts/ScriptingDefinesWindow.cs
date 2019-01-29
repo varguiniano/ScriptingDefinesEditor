@@ -3,7 +3,7 @@ using UnityEditor;
 using UnityEditorInternal;
 using UnityEngine;
 
-namespace Varguiniano.ScriptingDefineEditor
+namespace Varguiniano.ScriptingDefinesEditor
 {
     /// <inheritdoc />
     /// <summary>
