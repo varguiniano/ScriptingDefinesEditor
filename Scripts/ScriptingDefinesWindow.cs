@@ -95,7 +95,7 @@ namespace Varguiniano.ScriptingDefineEditor
         /// <summary>
         /// Path to save the config to.
         /// </summary>
-        private const string ConfigPath = "Assets/Varguiniano/ScriptingDefineEditor/Data/";
+        private const string ConfigPath = "Assets/Varguiniano/ScriptingDefinesEditor/Data/";
 
         /// <summary>
         /// Config file name.
